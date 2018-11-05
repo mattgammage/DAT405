@@ -1,23 +1,18 @@
-//DAT405 / GAD405
-//S1-00_Template
-//The purpose of this sketch is to provide a basic template
-//for P5.js projects
+let size = 50;
 
-//Initialization function
+
 function setup() {
-  //Print a message to the console - to view using Chrome:
-  //View > Developer > Developer Tools > Console
-  console.log("Initialization: OK")
-  createCanvas(500,500);
+  createCanvas(500, 500);
+
 }
 
-//Rendering function
 function draw() {
-  //Set a background color
-  background(255, 0, 255);
+  for (let x = 0; x < 10; x++) {
+    for(let y = 0; y <10; y++){
+      rect(size*x, size*y, size, size);
 
-  //Print a message to the console - to view using Chrome:
-  //View > Developer > Developer Tools > Console
-  console.log("Rendering...")
-  noLoop();
+    randomColor = color(random(255),random(255),random(255));
+
+    fill(randomColor);}
+  }
 }
