@@ -1,9 +1,9 @@
 
 var beginX = 0.0;
 var beginY = 0.0;
-var endX = 685.0;
-var endY = 400.0;
-var exponent = 1;
+var endX = 700.0;
+var endY = 420.0;
+var exponent = 2;
 var step = 0.01;
 var pct = 0.0;
 
