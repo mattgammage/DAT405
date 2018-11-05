@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  fill(22, 2);
+  fill(22,2);
   rect(0, 0, width, height);
   pct += step;
   if (pct < 1.0) {
