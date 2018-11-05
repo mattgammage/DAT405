@@ -14,5 +14,6 @@ function draw() {
     randomColor = color(random(255),random(255),random(255));
 
     fill(randomColor);}
+
   }
 }
