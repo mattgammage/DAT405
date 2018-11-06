@@ -1,4 +1,6 @@
-let size
+let sizeRandom = 100;
+let xRandom;
+let yRandom;
 
 
 function setup() {
@@ -10,16 +12,31 @@ function setup() {
 
 function draw() {
 
-  size = random(200)
-  customShape();
+  sizeRandom = random(100, 300);
+  xRandom = random (width);
+  yRandom = random (height);
+  customShape(xRandom, yRandom, sizeRandom)
 
 }
-function customShape(){
-  fill(random(255), random(0), random(255), random(255));
-  ellipse(random(720), random(400), size, size);
-  rect(random(360), random(200), size, size);
-  ellipse(random(180), random(100), size, size);
-  rect(random(90), random(50), size, size);
-  ellipse(random(45), random(25), size, size);
+function customShape(x, y, size){
+  stroke(0);
+  strokeWeight(1);
+  fill(255)
+  ellipse(x, y, size, size);
 
+  strokeWeight(5);
+  stroke(255, 207, 200);
+  ellipse(x, y, size/1.2, size/1.2);
+
+  strokeWeight(1);
+  stroke(177, 178, 174);
+  ellipse(x, y, size/1.4, size/1.4);
+
+  stroke(101, 141, 166);
+  strokeWeight(5);
+  ellipse(x, y, size/1.4, size/1.4);
+
+  noStroke();
+  fill(196, 204, 171 )
+  ellipse(x, y, size/4, size/4);
 }
