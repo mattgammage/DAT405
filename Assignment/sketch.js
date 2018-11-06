@@ -22,7 +22,7 @@ function draw() {
     x = beginX + pct * distX;
     y = beginY + pow(pct, exponent) * distY;
   }
-  fill(270,90,45);
+  fill(random(255), random(255), random(255));
   ellipse(x, y, 90, 10);
 }
 
