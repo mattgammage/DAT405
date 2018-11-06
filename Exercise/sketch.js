@@ -21,7 +21,7 @@ function draw() {
 function customShape(x, y, size){
   stroke(0);
   strokeWeight(1);
-  fill(255)
+  fill(239, 245, 255)
   ellipse(x, y, size, size);
 
   strokeWeight(5);
