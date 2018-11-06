@@ -5,7 +5,7 @@ var endX = 700.0;
 var endY = 420.0;
 var exponent = 2;
 var step = 0.01;
-var pct = 0.0;
+var pct = 0.0; // 
 
 function setup() {
   createCanvas(720, 400);
