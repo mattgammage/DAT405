@@ -3,6 +3,7 @@ let size
 
 function setup() {
   createCanvas(720, 400);
+  frameRate(30);
   noStroke();
 
 }
