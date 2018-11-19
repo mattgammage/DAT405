@@ -4,8 +4,8 @@ let yRandom;
 
 
 function setup() {
-  createCanvas(2000, 900);
-  frameRate(50);
+  createCanvas(2000, 900); //canvas size
+  frameRate(50); // speed of shape appearance
   noStroke();
 
 }
@@ -20,7 +20,7 @@ function draw() {
 function customShape(x, y, size){
   stroke(0);
   strokeWeight(1);
-  fill(12, 200, 222)
+  fill(12, 200, 222) //colour
   ellipse(x, y, size, size);
 
   strokeWeight(5);
@@ -36,7 +36,7 @@ function customShape(x, y, size){
   ellipse(x, y, size/1.4, size/1.4);
 
   noStroke();//test
-  fill(111, 204, 171 )
+  fill(111, 204, 171 ) //colour
   ellipse(x, y, size/4, size/4);
 }
 function keyPressed () {
@@ -47,7 +47,7 @@ function keyPressed () {
 function customShape1(x, y, size){
   stroke(0);
   strokeWeight(3);
-  fill(60, 190, 20)
+  fill(60, 190, 20) //colour
   rect(x, y, size, size);
 
   strokeWeight(5);
@@ -63,13 +63,13 @@ function customShape1(x, y, size){
   rect(x, y, size/1.4, size/1.4);
 
   noStroke();//test
-  fill(78, 68, 234 )
+  fill(78, 68, 234 ) //colour
   rect(x, y, size/4, size/4);
 }
 function customShape2(x, y, size){
   stroke(0);
   strokeWeight(4);
-  fill(90, 245, 180)
+  fill(90, 245, 180) //colour
   triangle(x, y, size, size);
 
   strokeWeight(4);
@@ -85,6 +85,6 @@ function customShape2(x, y, size){
   triangle(x, y, size/2.4, size/2.4);
 
   noStroke();//test
-  fill(196, 204, 171 )
+  fill(196, 204, 171 ) //colour
   triangle(x, y, size/4, size/4);
 }
