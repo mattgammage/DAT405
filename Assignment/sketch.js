@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-  fill(1,1);
+  fill(1,1); // colour of canvas
   rect(0, 0, width, height);
   pct += step;
   if (pct < 1.0) {
