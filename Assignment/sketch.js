@@ -26,7 +26,7 @@ function draw() {
   ellipse(x, y, 90, 10); //name of shape
 }
 
-function mouseMoved() { //describes what to do in order to see effect
+function mouseMoved() { //describes what to do in order to see effect/function
   pct = 0.5;
   beginX = x;
   beginY = y;
