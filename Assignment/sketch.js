@@ -27,7 +27,7 @@ function draw() {
 }
 
 function mouseMoved() { //describes what to do in order to see effect
-  pct = 0.0;
+  pct = 0.5;
   beginX = x;
   beginY = y;
   endX = mouseX;
