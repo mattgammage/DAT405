@@ -3,7 +3,7 @@ var beginX = 0.0; //coordinate for the beginning of the shape on the x axis
 var beginY = 0.0; //coordinate for the beginning of the shape on the y axis
 var endX = 700.0; //coordinate for the end of the shape on the x axis
 var endY = 730.0; //coordinate for the end of the shape on the y axis
-var exponent = 2;
+var exponent = 2; //determines when the shape makes its way downwards
 var step = 0.01;
 var pct = 0.0; //
 
