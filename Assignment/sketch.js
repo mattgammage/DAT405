@@ -9,7 +9,6 @@ var pct = 0.0; //
 
 function setup() {
   createCanvas(720, 720); //size of canvas
-  noStroke();
   distX = endX - beginX;
   distY = endY - beginY;
 }
