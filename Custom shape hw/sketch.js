@@ -18,20 +18,20 @@ function draw() {
 
 }
 function customShape(x, y, size){
-  stroke(0);
+  stroke(0); //outline of shape
   strokeWeight(1);
   fill(12, 200, 222) //colour
   ellipse(x, y, size, size); //shape and its size
 
   strokeWeight(5);
-  stroke(99, 333, 12);
+  stroke(99, 333, 12); //outline of shape
   ellipse(x, y, size/1.2, size/1.2); //shape and its size
 
   strokeWeight(1);
-  stroke(177, 178, 174);
+  stroke(177, 178, 174); //outline of shape
   ellipse(x, y, size/1.4, size/1.4); //shape and its size
 
-  stroke(101, 141, 166);
+  stroke(101, 141, 166); //outline of shape
   strokeWeight(5);
   ellipse(x, y, size/1.4, size/1.4); //shape and its size
 
@@ -45,20 +45,20 @@ function keyPressed () {
   if (key=="c" ||key=="C")customShape2(xRandom, yRandom, sizeRandom)
 }
 function customShape1(x, y, size){
-  stroke(0);
+  stroke(0); //outline of shape
   strokeWeight(3);
   fill(60, 190, 20) //colour
   rect(x, y, size, size); //shape and its size
 
   strokeWeight(5);
-  stroke(300, 170, 100);
+  stroke(300, 170, 100); //outline of shape
   rect(x, y, size/1.2, size/1.2); //shape and its size
 
   strokeWeight(1);
-  stroke(289, 134, 421);
+  stroke(289, 134, 421); //outline of shape
   rect(x, y, size/1.4, size/1.4); //shape and its size
 
-  stroke(180, 45, 90);
+  stroke(180, 45, 90); //outline of shape
   strokeWeight(5);
   rect(x, y, size/1.4, size/1.4); //shape and its size
 
@@ -67,7 +67,7 @@ function customShape1(x, y, size){
   rect(x, y, size/4, size/4); //shape and its size
 }
 function customShape2(x, y, size){
-  stroke(0);
+  stroke(0); //outline of shape
   strokeWeight(4);
   fill(90, 245, 180) //colour
   triangle(x, y, size, size); //shape and its size
@@ -77,10 +77,10 @@ function customShape2(x, y, size){
   triangle(x, y, size/4.4, size/4.4); //shape and its size
 
   strokeWeight(4);
-  stroke(300, 200, 100);
+  stroke(300, 200, 100); //outline of shape
   triangle(x, y, size/1.8, size/1.8); //shape and its size
 
-  stroke(233, 56, 12);
+  stroke(233, 56, 12); //outline of shape
   strokeWeight(4);
   triangle(x, y, size/2.4, size/2.4); //shape and its size
 
