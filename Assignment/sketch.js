@@ -4,8 +4,8 @@ var beginY = 0.0; //coordinate for the beginning of the shape on the y axis
 var endX = 700.0; //coordinate for the end of the shape on the x axis
 var endY = 730.0; //coordinate for the end of the shape on the y axis
 var exponent = 2; //determines when the shape makes its way downwards
-var step = 0.01;
-var pct = 0.0; //
+var step = 0.01; //speed of decent at the beginning
+var pct = 0.0; //determines where the shaoe decends from
 
 function setup() {
   createCanvas(720, 720); //size of canvas
