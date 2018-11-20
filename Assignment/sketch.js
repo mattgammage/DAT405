@@ -26,7 +26,7 @@ function draw() {
 }
 
 function mouseMoved() { //describes what to do in order to see effect/function
-  pct = 0.5; //
+  pct = 0.5; //speed of shapes movement with the mouse
   beginX = x;
   beginY = y;
   endX = mouseX;
