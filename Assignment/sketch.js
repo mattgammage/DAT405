@@ -22,11 +22,11 @@ function draw() {
     y = beginY + pow(pct, exponent) * distY;
   }
   fill(random(255), random(255), random(255)); //randomises colour of shape
-  ellipse(x, y, 90, 10); //name of shape
+  ellipse(x, y, 90, 10); //name of shape and its size
 }
 
 function mouseMoved() { //describes what to do in order to see effect/function
-  pct = 0.5;
+  pct = 0.5; //
   beginX = x;
   beginY = y;
   endX = mouseX;
