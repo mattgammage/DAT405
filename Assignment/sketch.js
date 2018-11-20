@@ -1,8 +1,8 @@
 
-var beginX = 0.0; //coordinate for the beginning of the shape
-var beginY = 0.0; //coordinate for the beginning of the shape
-var endX = 700.0; //coordinate for the end of the shape
-var endY = 730.0; //coordinate for the end of the shape
+var beginX = 0.0; //coordinate for the beginning of the shape on the x axis
+var beginY = 0.0; //coordinate for the beginning of the shape on the y axis
+var endX = 700.0; //coordinate for the end of the shape on the x axis
+var endY = 730.0; //coordinate for the end of the shape on the y axis
 var exponent = 2;
 var step = 0.01;
 var pct = 0.0; //
@@ -23,7 +23,7 @@ function draw() {
     y = beginY + pow(pct, exponent) * distY;
   }
   fill(random(255), random(255), random(255)); //randomises colour of shape
-  ellipse(x, y, 90, 10); //name of shape/what it is
+  ellipse(x, y, 90, 10); //name of shape
 }
 
 function mouseMoved() { //describes what to do in order to see effect
