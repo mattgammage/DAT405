@@ -4,7 +4,7 @@ let yRandom;
 
 
 function setup() {
-  createCanvas(2000, 900); //canvas size
+  createCanvas(2000, 1000); //canvas size
   frameRate(50); // speed of shape appearance
   noStroke();
 
