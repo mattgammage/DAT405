@@ -42,7 +42,17 @@ function draw() {
   if (weather.main.temp>20) mapColor = color(234, 143, 0);
 
   background(mapColor);
-  fill(0);
+  fill(255,235,59);
+  rect(10,10,150,150)
+  fill(20,120,20)
+  rect(170,10,150,150)
+  fill(10,50,150)
+  rect(10,170,150,150)
+  fill(150,50,50)
+  rect(170,170,150,150)
+
+
+  fill(0)
   text(randomLocation, width/2, height/2-30);
   text("Temperature: " + weather.main.temp + "°C", width/2, height/2-0);
   text("Humidity: " + weather.main.humidity + "%", width/2, height/2+30);
