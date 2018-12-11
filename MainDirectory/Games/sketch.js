@@ -1,11 +1,11 @@
 //http://api.openweathermap.org
 
 //Use a text/string object to assign the city we would like to know the weather of
-let getLocation1 = "London";
-let getLocation2 = "Athens";
-let getLocation3 = "Shanghai";
+let getLocation1 = "Edinburgh";
+let getLocation2 = "New York";
+let getLocation3 = "Plymouth";
 //The API key has to be given by the openweathermap.org website (for free / per account)
-let apiKey = "6b4a465ac9894c63172283b3f271c20c";
+let apiKey = "a93316466bc4b03baa847ec7b9006eb7";
 //This variable will store the JSON weather data
 let weather1;
 let weather2;
@@ -37,13 +37,13 @@ function setup() {
   console.log("Wind Speed:" + weather1.wind.speed);
 
   //Display temperature information on the screen
-  createCanvas(400, 400);
+  createCanvas(900, 900);
   background(160);
   textAlign(CENTER);
-  textSize(18);
-  text("Current Temperature in London is " + weather1.main.temp + "°C", width/2, height/4);
-  text("Current Humidity in Athens is " + weather2.main.humidity + "°C", width/2, height/3);
-  text("Current Wind Speed in Shanghai is " + weather3.wind.speed + "°C", width/2, height/2);
+  textSize(30);
+  text("Current Temperature in Edinburgh is " + weather1.main.temp + "°C", width/2, height/4);
+  text("Current Humidity in New York is " + weather2.main.humidity + "°C", width/2, height/2.7);
+  text("Current Wind Speed in Plymouth is " + weather3.wind.speed + "°C", width/2, height/2);
   noLoop();
 }
 
