@@ -3,7 +3,7 @@
 //Use a text/string object to assign the city we would like to know the weather of
 let getLocation1 = "London";
 let getLocation2 = "Athens";
-let getLocation3 = "Shanghai";
+let getLocation3 = 'Alaska';
 //The API key has to be given by the openweathermap.org website (for free / per account)
 let apiKey = "6b4a465ac9894c63172283b3f271c20c";
 //This variable will store the JSON weather data
@@ -59,7 +59,7 @@ function draw(){
   ellipse(110,110,size2,size2)
 
   size3 = map(weather3.main.temp, -5, 40, 10, 100);
-  fill(map(weather3.main.temp,0, 20, 255), 0, 0);
+  fill(0, 0, map(weather3.main.temp,0, 20,0, 255));
   ellipse(300,300,size3,size3)
   fill(255);
   text(getLocation3, 300, 300);
